@@ -38,7 +38,7 @@ struct ContentView: View {
                 Text("Paused State Restore Demo").font(.title2)
                     .padding(EdgeInsets(top: 12, leading: 0, bottom: 12, trailing: 0))
                 
-                Text("We are simulating restoring the app in a paused state.  *Press the lock button on your device **now** to see what it displays.\n\nThe way each `MPNowPlayingInfoCenter.nowPlayingInfo` property relevant to playing/paused state is updated can be customized by via the strategy edit button.\n\nWhat you will eventually discover is that there is *no* combination of strategies that actually works to get remote controls to show a **play** button rather than a pause button after startup.")
+                Text("We are simulating restoring the app in a paused state.  *Press the lock button on your device **now** to see what it displays*.\n\nThe way each `MPNowPlayingInfoCenter.nowPlayingInfo` property relevant to playing/paused state is updated can be customized by via the strategy edit button.\n\nWhat you will eventually discover is that there is *no* combination of strategies that actually works to get remote controls to show a **play** button rather than a pause button after startup.")
                     .font(.footnote)
                     .multilineTextAlignment(.leading)
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 12, trailing: 0))
